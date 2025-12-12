@@ -1,3 +1,4 @@
+return; // 禁用版本检查
 // 添加动画样式
 (function() {
     const style = document.createElement('style');
