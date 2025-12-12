@@ -19,7 +19,7 @@ jobs:
 
       - name: Add upstream
         run: |
-          git remote add upstream https://github.com/LibreSpark/LibreTV.git || echo "Upstream exists"
+          git remote add upstream https://github.com/LibreSpark/BiliTV.git || echo "Upstream exists"
           git fetch upstream
 
       - name: Set Git identity
